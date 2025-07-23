@@ -25,6 +25,14 @@ const experience = [
     technologies: ["JavaScript", "PHP", "amoCRM API"],
     link: "https://test-amocrm.example.com",
   },
+  {
+    company: "Mobile Apps Studio",
+    role: "React Native Developer (Expo Go)",
+    period: "2023 — 2024",
+    description: "Разработка кроссплатформенных мобильных приложений на React Native с использованием Expo Go. Интеграция с REST API, публикация в App Store и Google Play, настройка push-уведомлений.",
+    technologies: ["React Native", "Expo Go", "TypeScript", "REST API", "Push Notifications"],
+    link: "https://test-expo-app.example.com",
+  },
 ];
 
 const Experience: React.FC = () => (
