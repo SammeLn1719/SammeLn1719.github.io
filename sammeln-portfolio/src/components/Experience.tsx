@@ -4,7 +4,7 @@ const experience = [
   {
     company: "Landing Page Studio",
     role: "Full-stack Developer",
-    period: "2022 — 2024",
+    period: "2021 — 2022",
     description: "Разработка и поддержка лендингов и интернет-магазинов с интеграцией платёжных сервисов. Оптимизация SEO, внедрение CI/CD.",
     technologies: ["React", "Next.js", "Node.js", "TypeScript", "Stripe", "Docker"],
     link: "https://test-landing.example.com",
@@ -20,18 +20,26 @@ const experience = [
   {
     company: "amoCRM Solutions",
     role: "Module Developer (JS/PHP)",
-    period: "2020 — 2021",
+    period: "2021 — 2022",
     description: "Разработка модулей и интеграций для amoCRM на JavaScript и PHP, автоматизация бизнес-процессов, работа с API.",
     technologies: ["JavaScript", "PHP", "amoCRM API"],
     link: "https://test-amocrm.example.com",
   },
   {
-    company: "Mobile Apps Studio",
-    role: "React Native Developer (Expo Go)",
-    period: "2023 — 2024",
-    description: "Разработка кроссплатформенных мобильных приложений на React Native с использованием Expo Go. Интеграция с REST API, публикация в App Store и Google Play, настройка push-уведомлений.",
-    technologies: ["React Native", "Expo Go", "TypeScript", "REST API", "Push Notifications"],
-    link: "https://test-expo-app.example.com",
+    company: "React Native Apps",
+    role: "Mobile Developer",
+    period: "2022 — 2023",
+    description: "Разработка кроссплатформенных мобильных приложений на React Native для iOS и Android, интеграция с внешними сервисами, публикация в App Store и Google Play.",
+    technologies: ["React Native", "TypeScript", "Expo", "Redux", "REST API"],
+    link: "https://your-mobile-apps.example.com",
+  },
+  {
+    company: "E-commerce Solutions",
+    role: "Frontend/Backend Developer",
+    period: "2022 — 2023",
+    description: "Создание интернет-магазинов под ключ: проектирование, разработка, интеграция платёжных систем, админ-панели и аналитики.",
+    technologies: ["Next.js", "React", "Node.js", "Stripe", "MongoDB"],
+    link: "https://your-ecommerce.example.com",
   },
 ];
 
