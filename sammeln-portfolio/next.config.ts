@@ -4,10 +4,7 @@ import type { NextConfig } from "next";
 const isGithubPages = process.env.GITHUB_PAGES === 'true';
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  distDir: 'docs',
-  assetPrefix: isGithubPages ? '/SammeLn1719.github.io/sammeln-portfolio/' : undefined,
-  basePath: isGithubPages ? '/SammeLn1719.github.io/sammeln-portfolio' : undefined,
+  output: 'export'
 };
 
 export default nextConfig;
